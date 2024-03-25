@@ -1,0 +1,45 @@
+@media screen and (max-width : 1340px) {
+
+    .card{
+        width: 90%;
+    }
+
+    .card p:first-child{
+        font-size: 3.2em;
+    }
+
+    .quote p{
+        font-size: 2.7em;
+    }
+
+    .author{
+        font-size: 2.2em;
+    }
+
+    .features{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .features button{
+        margin: 30px 0;
+        font-size: 20px;
+    }
+
+    .features button:hover{
+        background-color: crimson;
+        color: white;
+        transition: all 250ms 100ms ease-in-out;
+    }
+
+    .icon i{
+        margin: 10px 30px;
+        font-size: 30px;
+    }
+
+    .icon i:hover{
+        background-color: crimson;
+        color: white;
+        transition: all 250ms 100ms ease-in-out;
+    }
+}

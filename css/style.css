@@ -1,0 +1,125 @@
+/* CSS Reset */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Container */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+/* Card */
+
+.card{
+    width: 50%;
+    background-color: deepskyblue;
+    text-align: center;
+}
+
+.card p:first-child{
+    font-size: 2.5em;
+    padding: 25px 0px;
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+
+/* Quote */
+
+.quote{
+    display: flex;
+    justify-content: center;
+}
+
+.quote p{
+    font-size: 2em;
+    text-align: center;
+    font-family: monospace;
+}
+
+.quote i:first-child{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 7px 0 10px;
+}
+
+.quote i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 10px 10px 7px;
+}
+
+/* Author */
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-family: monospace;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+/* Features */
+
+.features{
+    display: flex;
+}
+
+.all-features{
+    display: flex;
+}
+
+.features button{
+    height: 40px;
+    width: 140px;
+    border-radius: 24px;
+    border: 0;
+    margin: 60px;
+    margin-left: 120px;
+    font-size: 1em;
+    color: crimson;
+    cursor: pointer;
+}
+
+.features button:hover{
+    background-color: crimson;
+    color: white;
+    transition: all 250ms 100ms ease-in-out;
+}
+
+.features button.loading{
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+.icon{
+    list-style: none;
+}
+
+.icon i{
+    font-size: 27px;
+    margin: 55px 40px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: crimson;
+    cursor: pointer;
+}
+
+.icon i:hover{
+    background-color: crimson;
+    color: white;
+    transition: all 250ms 100ms ease-in-out;
+}
